@@ -17,10 +17,10 @@ public class print {
     public void spit() {
 
         System.out.println("start");
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 50; i++) {
             System.out.print(".");
             try {
-                Thread.sleep(1000);
+                Thread.sleep(100);
             } catch (InterruptedException ex) {
                 Logger.getLogger(print.class.getName()).log(Level.SEVERE, null, ex);
             }
