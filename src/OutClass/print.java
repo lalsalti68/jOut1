@@ -17,7 +17,7 @@ public class print {
     public void spit() {
 
         System.out.println("start");
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 5; i++) {// made some changes here <----
             System.out.print(".");
             try {
                 Thread.sleep(1000); // made some changes here <----
