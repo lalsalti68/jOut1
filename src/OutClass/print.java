@@ -21,7 +21,7 @@ public class print {
         for (int i = 0; i < 5; i++) {// made some changes here <----
             System.out.print(".");
             try {
-                Thread.sleep(1000); // made some changes here <----
+                Thread.sleep(100); // made some changes here <----
             } catch (InterruptedException ex) {
                 Logger.getLogger(print.class.getName()).log(Level.SEVERE, null, ex);
             }
